@@ -1,0 +1,15 @@
+[package]
+name = "tree-sitter-ember-lockfile"
+description = "Ember Lockfile language support"
+version = "0.0.1"
+authors = ["itsfuad"]
+license = "MIT"
+edition = "2021"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+tree-sitter-language = "0.1"
+
+[build-dependencies]
