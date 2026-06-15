@@ -1,4 +1,4 @@
-export default grammar({
+module.exports = grammar({
   name: "peeper_lockfile",
 
   extras: ($) => [/\s/],

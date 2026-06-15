@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "peeper_lockfile",
+      "camelcase": "PeeperLockfile",
+      "title": "PeeperLockfile",
+      "scope": "source.peeper_lockfile",
+      "file-types": [
+        ".peep.lock"
+      ],
+      "injection-regex": "^peeper_lockfile$",
+      "class-name": "TreeSitterPeeperLockfile"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "Peeper Language dependency lockfile",
+    "authors": [
+      {
+        "name": "Fuad Hasan",
+        "email": "fuad.cs22@gmail.com",
+        "url": "https://github.com/itsfuad"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/PeeperLanguage/tree_sitter_lockfile"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
