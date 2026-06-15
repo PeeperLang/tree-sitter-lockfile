@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: "ember_lockfile",
+  name: "peeper_lockfile",
 
   extras: ($) => [/\s/],
 

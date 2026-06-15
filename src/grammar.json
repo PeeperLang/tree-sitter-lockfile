@@ -1,6 +1,6 @@
 {
   "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/grammar.schema.json",
-  "name": "ember_lockfile",
+  "name": "peeper_lockfile",
   "rules": {
     "source_file": {
       "type": "SYMBOL",

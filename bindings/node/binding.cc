@@ -19,7 +19,7 @@ void Init(Local<Object> exports, Local<Object> module) {
   Local<Object> instance = constructor->NewInstance(Nan::GetCurrentContext()).ToLocalChecked();
   Nan::SetInternalFieldPointer(instance, 0, tree_sitter_lockfile());
 
-  Nan::Set(instance, Nan::New("name").ToLocalChecked(), Nan::New("ember_lockfile").ToLocalChecked());
+  Nan::Set(instance, Nan::New("name").ToLocalChecked(), Nan::New("peeper_lockfile").ToLocalChecked());
   Nan::Set(module, Nan::New("exports").ToLocalChecked(), instance);
 }
 

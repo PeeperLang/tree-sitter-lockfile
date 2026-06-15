@@ -1,7 +1,7 @@
 {
-  "name": "tree-sitter-ember-lockfile",
+  "name": "tree-sitter-peeper-lockfile",
   "version": "0.0.1",
-  "description": "ember-lockfile grammar for tree-sitter",
+  "description": "peeper-lockfile grammar for tree-sitter",
   "main": "bindings/node",
   "keywords": [
     "parsing",

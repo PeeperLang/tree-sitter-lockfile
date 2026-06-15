@@ -1,6 +1,6 @@
 [package]
-name = "tree-sitter-ember-lockfile"
-description = "Ember Lockfile language support"
+name = "tree-sitter-peeper-lockfile"
+description = "Peeper Lockfile language support"
 version = "0.0.1"
 authors = ["itsfuad"]
 license = "MIT"
