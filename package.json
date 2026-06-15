@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "peeper-lockfile grammar for tree-sitter",
   "main": "bindings/node",
+   "type": "module",
   "keywords": [
     "parsing",
     "incremental"

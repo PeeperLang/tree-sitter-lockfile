@@ -7,7 +7,7 @@
       "title": "PeeperLockfile",
       "scope": "source.peeper_lockfile",
       "file-types": [
-        ".peep.lock"
+        "peep.lock"
       ],
       "injection-regex": "^peeper_lockfile$",
       "class-name": "TreeSitterPeeperLockfile"
