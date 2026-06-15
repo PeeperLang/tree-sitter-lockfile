@@ -1,8 +1,0 @@
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-error: can't find lib `tree_sitter_peeper_lockfile` at path `/home/itsfuad/Dev/Ember/tree-sitter-lockfile/lib.rs`
- --> /home/itsfuad/Dev/Ember/tree-sitter-lockfile/Cargo.toml
-error: can't find lib `tree_sitter_peeper_lockfile` at path `/home/itsfuad/Dev/Ember/tree-sitter-lockfile/lib.rs`
- --> /home/itsfuad/Dev/Ember/tree-sitter-lockfile/Cargo.toml
-error: could not compile due to 2 previous target resolution errors
